@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		62D2B3151B4FD30600EF2008 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D2B3141B4FD30600EF2008 /* main.c */; };
+		62BDC9641B552CC100F9CAF7 /* v1.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D2B31E1B4FE99C00EF2008 /* v1.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		62D2B3111B4FD30600EF2008 /* 中国像棋 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "中国像棋"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D2B3141B4FD30600EF2008 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		62D2B31B1B4FE8F400EF2008 /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		62D2B31E1B4FE99C00EF2008 /* v1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = v1.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				62D2B3141B4FD30600EF2008 /* main.c */,
+				62D2B31B1B4FE8F400EF2008 /* test.c */,
+				62D2B31E1B4FE99C00EF2008 /* v1.c */,
 			);
 			path = "中国像棋";
 			sourceTree = "<group>";
@@ -118,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62D2B3151B4FD30600EF2008 /* main.c in Sources */,
+				62BDC9641B552CC100F9CAF7 /* v1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +239,7 @@
 				62D2B31A1B4FD30600EF2008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
